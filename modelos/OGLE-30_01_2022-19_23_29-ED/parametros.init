@@ -1,0 +1,29 @@
+[Parametros compartidos]
+training = True
+cantidad_series_de_tiempo = 2000
+cantidad_mediciones = 700
+path_datos = .\Archivos_profe\DATOSOGLE\LCs
+path_index = .\Archivos_profe\DATOSOGLE\OGLE_dataset.dat
+extension_series_de_tiempo = .dat
+path_models_root = .\Archivos_profe\modelos
+path_models = .\Archivos_profe\modelos\GAIA-07_12_2021-12_43_11-RRAB\modelos\
+columnas_index = ['ID', 'Class', 'Path', 'N']
+nombre_clase = ED
+
+[GAN]
+epochs = 10
+batch_size = 10
+sample_interval = 5
+len_vec = 1
+n_input = None
+
+[LSTM_score]
+epochs_score = 10
+len_vec_lstm_score = 2
+n_samples_evaluate = 1000
+
+[Resultados]
+accuracy_lstm_score_gan = 0.5179356932640076
+periodo_generado = 26866.71300000045 d
+periodo_real = 5.217378966165426 d
+
