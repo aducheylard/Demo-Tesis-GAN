@@ -6,4 +6,3 @@ Pasos para ejecutar los experimentos:
 2.	Ejecutar “GAN1_KERAS_LSTM_FOLDEO.ipynb”
 3.	Modificar parámetros del archivo “IAR_Score.ipynb”
 4.	Ejecutar “IAR_Score.ipynb”.
-5.	
